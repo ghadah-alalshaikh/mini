@@ -11,50 +11,78 @@
 <link rel="stylesheet" href="style.css">
 
 </head>
-
+<!-- background -->
 <body class="main">
-<div class="container-fluid">
-  <div class="background">
-    <img id="first" src="background2.jpg">
-      <h1 class="text1"> Electricity Production and Consumption </h1>
+  <section>
+    <div class="container-fluid">
+      <div class="background">
+        <img id="first" src="background2.jpg">
+        <h1 class="text1"> Electricity Production and Consumption </h1>
     </div>
-</div>
-
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm"> <h2 class="txtsec1"> How is electricity generated? </h2> </div>
-    <div class="col-sm"> <img src="electricity.gif"> </div>
-  </div>
-</div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col">
-<iframe src="https://datasource.kapsarc.org/explore/embed/dataset/electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004/analyze/?disjunctive.electricity_indicator&sort=-electricity_indicator&refine.electricity_indicator=Total%20Energy%20Consumption%20MW%2Fh&refine.electricity_indicator=Total%20Energy%20Produced%20MW&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJpbmRpY2F0b3JfdmFsdWUiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1BY2NlbnQifV0sInhBeGlzIjoidGltZV9wZXJpb2QiLCJtYXhwb2ludHMiOjEwMCwic29ydCI6IiIsInRpbWVzY2FsZSI6InllYXIiLCJzZXJpZXNCcmVha2Rvd24iOiJlbGVjdHJpY2l0eV9pbmRpY2F0b3IiLCJjb25maWciOnsiZGF0YXNldCI6ImVsZWN0cmljaXR5LWNvbnN1bXB0aW9uLXByb2R1Y3Rpb24tbnVtYmVyLW9mLXN1YnNjcmliZXJzLWFuZC1wZWFrLWxvYWQtMTk4MC0yMDA0Iiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5lbGVjdHJpY2l0eV9pbmRpY2F0b3IiOnRydWUsInNvcnQiOiItZWxlY3RyaWNpdHlfaW5kaWNhdG9yIiwicmVmaW5lLmVsZWN0cmljaXR5X2luZGljYXRvciI6WyJUb3RhbCBFbmVyZ3kgQ29uc3VtcHRpb24gTVcvaCIsIlRvdGFsIEVuZXJneSBQcm9kdWNlZCBNVyJdfX19XSwidGltZXNjYWxlIjoieWVhciJ9&static=false&datasetcard=false" width="800" height="400" frameborder="0"></iframe>
-  </div>
-    <div class="col-2"> <img id="danger" src="danger.png"> </div>
-
-  <div class="col">
-    <a href="https://datasource.kapsarc.org/explore/dataset/electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004/information/?disjunctive.electricity_indicator&sort=time_period&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJpbmRpY2F0b3JfdmFsdWUiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1BY2NlbnQifV0sInhBeGlzIjoidGltZV9wZXJpb2QiLCJtYXhwb2ludHMiOjEwMCwic29ydCI6IiIsInRpbWVzY2FsZSI6InllYXIiLCJzZXJpZXNCcmVha2Rvd24iOiJlbGVjdHJpY2l0eV9pbmRpY2F0b3IiLCJjb25maWciOnsiZGF0YXNldCI6ImVsZWN0cmljaXR5LWNvbnN1bXB0aW9uLXByb2R1Y3Rpb24tbnVtYmVyLW9mLXN1YnNjcmliZXJzLWFuZC1wZWFrLWxvYWQtMTk4MC0yMDA0Iiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5lbGVjdHJpY2l0eV9pbmRpY2F0b3IiOnRydWUsInNvcnQiOiJ0aW1lX3BlcmlvZCJ9fX1dLCJ0aW1lc2NhbGUiOiJ5ZWFyIn0%3D"><h2> Electricity Consumption is exceeding its Production! </h2></a>
-      <p class="txtsec1"> According to the General Authority of Statistics, mostly electricity consumption exceeds the electricity production through 1980 to 2016 as a result of the massive increase in the population of Saudi Arabia. Moreover, the demand for electricty is expected to increase by 6% in the next few years. </p>
-  </div>
-</div> </div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm"> <h3 class="txtsec1"> Distribution of Electricity Production </h3> <p class="txtsec1"> The Saudi electricity generation is heavily dependent on hydrocarbons, accounting for the following:  </p> <img id="crude" src="crude.png"><p class="txtsec1"> Crude oil: 29% </p>  <img id="diesel" src="diesel.png"><p class="txtsec1"> Diesel: 15% </p> <br> <img id="fuel" src="fuel.png"><p class="txtsec1"> Heavy fuel oil: 10% </p>  <img id="gas" src="gas.png"> <p class="txtsec1"> Natural Gas: 49% </p> </div>
-      <div class="col-sm"> <h3 class="txtsec1"> Distribution of Consumption </h3> <img id="residential" src="residential.png"> <p class="txtsec1"> Residential: 50% </p>  <img id="industry" src="industrial.png"> <p class="txtsec1"> Industrial: 21% </p> <img id="commercial" src="commercial.png"> <p class="txtsec1"> Commercial: 15% </p> <img id="government" src="government.png"> <p class="txtsec1"> Government: 12% </p>  </div>
-  </div> </div>
+  </div> </section>
+<!-- introduction -->
+<section>
   <div class="container-fluid">
-  <div class="row">
-    <div class="col-sm"> <iframe width="560" height="315" src="https://www.youtube.com/embed/E8wAPeqcRUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-    <div class="col-sm"><img id="ac" src="ac.png"> <img id="car" src="car.png"> <img id="light" src="light.png"> <img id="ref" src="ref.png"> <img id="dryer" src="dryer.png"> </div>
-</div> </div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm"> <img class="vision" src="2030.png"> <a href="http://www.be2c2.com/2016/09/12/saudi-eyes-alternate-energy-with-public-private-partnerships-and-smart-grids-regional-electricity-trade/">  </a></div>
-      <div class="col-sm"> <p class="txtsec1"> The 2030 Vision is working on renewable energy and solar energy as sources for the electricity production without relying only on oil products. </p> </div>
+    <div class="row">
+      <div class="col-sm"> <h2 class="txtsec1"> How is electricity generated? </h2> </div>
+      <div class="col-sm"> <img src="electricity.gif"> </div>
   </div>
-</div>
+</div> </section>
+<!-- problem     -->
+<section>
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm">
+          <iframe src="https://datasource.kapsarc.org/explore/embed/dataset/electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004/analyze/?disjunctive.electricity_indicator&sort=-electricity_indicator&refine.electricity_indicator=Total%20Energy%20Consumption%20MW%2Fh&refine.electricity_indicator=Total%20Energy%20Produced%20MW&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJpbmRpY2F0b3JfdmFsdWUiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1BY2NlbnQifV0sInhBeGlzIjoidGltZV9wZXJpb2QiLCJtYXhwb2ludHMiOjEwMCwic29ydCI6IiIsInRpbWVzY2FsZSI6InllYXIiLCJzZXJpZXNCcmVha2Rvd24iOiJlbGVjdHJpY2l0eV9pbmRpY2F0b3IiLCJjb25maWciOnsiZGF0YXNldCI6ImVsZWN0cmljaXR5LWNvbnN1bXB0aW9uLXByb2R1Y3Rpb24tbnVtYmVyLW9mLXN1YnNjcmliZXJzLWFuZC1wZWFrLWxvYWQtMTk4MC0yMDA0Iiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5lbGVjdHJpY2l0eV9pbmRpY2F0b3IiOnRydWUsInNvcnQiOiItZWxlY3RyaWNpdHlfaW5kaWNhdG9yIiwicmVmaW5lLmVsZWN0cmljaXR5X2luZGljYXRvciI6WyJUb3RhbCBFbmVyZ3kgQ29uc3VtcHRpb24gTVcvaCIsIlRvdGFsIEVuZXJneSBQcm9kdWNlZCBNVyJdfX19XSwidGltZXNjYWxlIjoieWVhciJ9&static=false&datasetcard=false" width="800" height="400" frameborder="0"></iframe>
+        </div>
 
+        <div class="col-sm"> <img id="danger" src="danger.png"> </div>
+
+        <div class="col-sm">
+        <a href="https://datasource.kapsarc.org/explore/dataset/electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004/information/?disjunctive.electricity_indicator&sort=time_period&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJpbmRpY2F0b3JfdmFsdWUiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1BY2NlbnQifV0sInhBeGlzIjoidGltZV9wZXJpb2QiLCJtYXhwb2ludHMiOjEwMCwic29ydCI6IiIsInRpbWVzY2FsZSI6InllYXIiLCJzZXJpZXNCcmVha2Rvd24iOiJlbGVjdHJpY2l0eV9pbmRpY2F0b3IiLCJjb25maWciOnsiZGF0YXNldCI6ImVsZWN0cmljaXR5LWNvbnN1bXB0aW9uLXByb2R1Y3Rpb24tbnVtYmVyLW9mLXN1YnNjcmliZXJzLWFuZC1wZWFrLWxvYWQtMTk4MC0yMDA0Iiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5lbGVjdHJpY2l0eV9pbmRpY2F0b3IiOnRydWUsInNvcnQiOiJ0aW1lX3BlcmlvZCJ9fX1dLCJ0aW1lc2NhbGUiOiJ5ZWFyIn0%3D"><br> <br> <h2> Electricity Consumption is exceeding its Production! </h2></a>
+          <p class="txtsec1"> According to the General Authority of Statistics, mostly electricity consumption exceeds the electricity production through 1980 to 2016 as a result of the massive increase in the population of Saudi Arabia. Moreover, the demand for electricty is expected to increase by 6% in the next few years. </p>
+      </div>
+</div> </div> </section>
+<!-- production  -->
+  <section>
+  <div class="container-fluid">
+      <div class="row"> <div class="col-sm"> <h3 class="txtsec1"> Distribution of Electricity Production </h3> </div> </div> </div>
+          <div class="container-fluid"> <div class="row">
+              <div class="col-sm">    <p class="txtsec1"> The Saudi electricity generation is heavily dependent on hydrocarbons, accounting for the following:  </p> <img id="crude" src="oil.png"><p class="txtsec1"> Crude oil: 29% </p>  <img id="diesel" src="diesel.png"><p class="txtsec1"> Diesel: 15% </p> </div>
+              <div class="col-sm"> <br> <img id="fuel" src="fuel.png"><p class="txtsec1"> Heavy fuel oil: 10% </p>  <img id="gas" src="gas.png"> <p class="txtsec1"> Natural Gas: 49% </p> </div>
+        </div> </div> </section>
+<!-- consumtion          -->
+<section>
+<div class="container-fluid"> <div class="row">
+      <div class="col-sm"> <h3 class="txtsec1"> Distribution of Consumption </h3> </div> </div> </div>
+<div class="container-fluid"> <div class="row">
+      <div class="col-sm"> <img id="residential" src="residential.png"> <p class="txtsec1"> Residential: 50% </p>  <img id="industry" src="industrial.png"> <p class="txtsec1"> Industrial: 21% </p></div>
+      <div class="col-sm"> <img id="commercial" src="commercial.png"> <p class="txtsec1"> Commercial: 15% </p> <img id="government" src="government.png"> <p class="txtsec1"> Government: 12% </p>  </div>
+  </div> </div></section>
+  <!-- saving electricity  -->
+  <section>
+    <div class="container-fluid">
+      <div="row"> <div class="col-sm"> <h3 class="txtsec1"> Tips to save electricity during the day! </h3> </div> </div> </div>
+  <div class="container-fluid">
+    <div class="row">
+    <div class="col-sm"> <iframe width="560" height="315" src="https://www.youtube.com/embed/E8wAPeqcRUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+    <!-- <div class="col-sm"><img id="ac" src="ac.png"> <img id="car" src="car.png"> <img id="light" src="light.png"> <img id="ref" src="ref.png"> <img id="dryer" src="dryer.png"> </div> -->
+</div> </div> <section>
+  <!-- vision 2030  -->
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm"> <img class="vision" src="2030.png"> <a href="http://www.be2c2.com/2016/09/12/saudi-eyes-alternate-energy-with-public-private-partnerships-and-smart-grids-regional-electricity-trade/">  </a></div>
+        <div class="col-sm"> <p class="txtsec1"> The 2030 Vision is working on renewable energy and solar energy as sources for the electricity production without relying only on oil products. </p> </div>
+    </div>
+  </div> <section>
+ <!-- conclusion      -->
+<section>
+  <div class="container-fluid">
+    <div class="row"> <div class="col-sm"> <h3 class="txtsec1"> KAPSARC Building Energy Assessment Tool </h3> </div> <div> <div>
+<div class="container-fluid">
+    <div class="row"> <div class="col-sm"> <p class="txtsec1"> This tool will help  control energy efficiency in residential areas by performing some analysis on your inputs  with the current Saudi Standards Quality and Meteorology Organization (SASO) thermal requirements for building constructions and assess its energy efficiency. </p> </div> </div> </div>
+</section>        
 
 
 </body>
