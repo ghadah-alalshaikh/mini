@@ -7,7 +7,8 @@ body {
   /* height: 800px; */
 }
 .main {
-  max-width: 1200px;
+  /* max-width: 1500px; */
+  width: 90%;
 }
 .background {
   position: relative;
@@ -41,7 +42,7 @@ h2 {
   width:100%;
 }
 #danger {
-  width: 100%;
+  width: 60%;
   /* margin-top: 20%; */
 }
 #crude {
