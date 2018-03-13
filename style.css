@@ -6,14 +6,18 @@ body {
   height: 70%;
   /* height: 800px; */
 }
+.main {
+  max-width: 1200px;
+}
 .background {
   position: relative;
 }
 .text1 {
   position: absolute;
-  bottom: 90%;
+  bottom: 80%;
   color: white;
-  right: 8%;
+  text-align: center;
+  right: 20%;
 }
 h2 {
   color: white;
@@ -29,13 +33,16 @@ h2 {
 }
 .row {
   margin: 2%;
-  text-align:center; 
+  text-align:center;
   /* width: 100%;
   height: 100%; */
 }
+#according {
+  width:100%;
+}
 #danger {
-  width: 60%;
-  margin-top: 20%;
+  width: 100%;
+  /* margin-top: 20%; */
 }
 #crude {
   width:15%;
@@ -91,4 +98,8 @@ h2 {
 }
 h3 {
   text-align: center;
+  font-size: 35px;
+}
+p {
+  font-size: 25px;
 }
