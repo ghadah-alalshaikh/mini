@@ -7,29 +7,31 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
 
 </head>
 <!-- background -->
-<body class="main">
-  <section>
-    <div class="container-fluid">
+<body data-spy="scroll" data-target=".scrolly" data-offset="50">
+
+
       <div class="background">
-        <img id="first" src="background2.jpg">
-        <h1 class="text1"> Electricity Production and Consumption in Saudi Arabia</h1>
-    </div>
-  </div> </section>
+              <img id="first" src="background.jpg">
+              <h1 class="text1"> Electricity Production and Consumption in Saudi Arabia</h1>
+
+  </div>
 <!-- introduction -->
 <section>
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <div class="col-sm"> <h2 class="txtsec1"> How electricity reach our houses? </h2> </div>
-      <div class="col-sm"> <img src="how.jpg"> </div>
+      <div class="col-sm"> <img src="how1.jpg"> </div>
   </div>
 </div> </section>
 <!-- problem     -->
-<section>
+<!-- <section>
   <div class="container-fluid">
     <div class="row">
         <div class="col-sm">
@@ -42,34 +44,78 @@
         <a href="https://datasource.kapsarc.org/explore/dataset/electricity-consumption-production-number-of-subscribers-and-peak-load-1980-2004/information/?disjunctive.electricity_indicator&sort=time_period&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJpbmRpY2F0b3JfdmFsdWUiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1BY2NlbnQifV0sInhBeGlzIjoidGltZV9wZXJpb2QiLCJtYXhwb2ludHMiOjEwMCwic29ydCI6IiIsInRpbWVzY2FsZSI6InllYXIiLCJzZXJpZXNCcmVha2Rvd24iOiJlbGVjdHJpY2l0eV9pbmRpY2F0b3IiLCJjb25maWciOnsiZGF0YXNldCI6ImVsZWN0cmljaXR5LWNvbnN1bXB0aW9uLXByb2R1Y3Rpb24tbnVtYmVyLW9mLXN1YnNjcmliZXJzLWFuZC1wZWFrLWxvYWQtMTk4MC0yMDA0Iiwib3B0aW9ucyI6eyJkaXNqdW5jdGl2ZS5lbGVjdHJpY2l0eV9pbmRpY2F0b3IiOnRydWUsInNvcnQiOiJ0aW1lX3BlcmlvZCJ9fX1dLCJ0aW1lc2NhbGUiOiJ5ZWFyIn0%3D"><br> <br> <h2> Electricity Consumption is exceeding its Production! </h2></a>
           <p class="txtsec1"> According to the General Authority of Statistics, mostly electricity consumption exceeds the electricity production through 1980 to 2016 as a result of the massive increase in the population of Saudi Arabia. Moreover, the demand for electricty is expected to increase by 6% in the next few years. </p>
       </div>
-</div> </div> </section>
-<!-- production  -->
-  <section>
-  <div class="container-fluid">
-      <div class="row"> <div class="col-sm"> <h3 class="txtsec1"> Distribution of Electricity Production </h3> </div> </div> </div>
-          <div class="container-fluid"> <div class="row">
-              <div class="col-sm">    <p class="txtsec1"> The Saudi electricity generation is heavily dependent on hydrocarbons, accounting for the following:  </p><br> <img id="crude" src="oil.png"><p class="txtsec1"> Crude oil: 29% </p>  <img id="diesel" src="diesel.png"><p class="txtsec1"> Diesel: 15% </p> </div>
-              <div class="col-sm"><br> <br> <br> <br> <br> <br> <img id="fuel" src="fuel.png"><p class="txtsec1"> Heavy fuel oil: 10% </p>  <img id="gas" src="gas.png"> <p class="txtsec1"> Natural Gas: 49% </p> </div>
-        </div> </div> </section>
-<!-- consumtion          -->
-<br> <br> <br> <br> <br> <br>
-<section>
-<div class="container-fluid"> <div class="row">
-      <div class="col-sm"> <h3 class="txtsec1"> Distribution of Consumption </h3> </div> </div> </div>
-<div class="container-fluid"> <div class="row">
-      <div class="col-sm"> <img id="residential" src="residential.png"> <p class="txtsec1"> Residential: 50% </p>  <img id="industry" src="industrial.png"> <p class="txtsec1"> Industrial: 21% </p></div>
-      <div class="col-sm"> <img id="commercial" src="commercial.png"> <p class="txtsec1"> Commercial: 15% </p> <img id="government" src="government.png"> <p class="txtsec1"> Government: 12% </p>  </div>
-  </div> </div></section>
+</div> </div> </section> -->
+                                <!-- production  -->
+  <section id="production">
+
+        <div class="container" id="prod">
+          <div class="row">
+            <div class="col-sm">
+              <br> <br>
+              <h2> Sources of Electricity Production </h2>
+            </div> </div>
+            <div class="row" id="pict">
+              <div class="col-sm">
+                <p> Crude Oil </p> <img id="crude" src="crudeoil.png"> <p> 29% </p>
+            </div>
+            <div class="col-sm">
+              <p> Heavy Fuel Oil </p> <img id="fuel" src="fueloil.png"> <p> 10% </p>
+            </div>
+            <div class="col-sm">
+                <p> Diesel </p> <img id="fuel" src="diesel1.png"> <p> 15% </p>
+            </div>
+            <div class="col-sm">
+                <p> Natural Gas </p> <img id="gas" src="naturalgas.png"> <p> 49% </p>
+            </div>  </div>    </div>  </section>
+
+              <!-- consumtion -->
+
+          <section>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm">
+                  <h2> Distribution of Consumption </h2>
+              </div> </div> </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <iframe src="https://datasource.kapsarc.org/explore/embed/dataset/electricity-consumption-by-sectors/analyze/?disjunctive.region&disjunctive.type_of_consumption&dataChart=eyJxdWVyaWVzIjpbeyJjaGFydHMiOlt7InR5cGUiOiJjb2x1bW4iLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJ2YWx1ZSIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6InJhbmdlLVNldDMifV0sInhBeGlzIjoieWVhciIsIm1heHBvaW50cyI6bnVsbCwic29ydCI6IiIsInNlcmllc0JyZWFrZG93biI6InR5cGVfb2ZfY29uc3VtcHRpb24iLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic3RhY2tlZCI6IiIsImNvbmZpZyI6eyJkYXRhc2V0IjoiZWxlY3RyaWNpdHktY29uc3VtcHRpb24tYnktc2VjdG9ycyIsIm9wdGlvbnMiOnsiZGlzanVuY3RpdmUucmVnaW9uIjp0cnVlLCJkaXNqdW5jdGl2ZS50eXBlX29mX2NvbnN1bXB0aW9uIjp0cnVlfX19XSwidGltZXNjYWxlIjoiIn0%3D&static=false&datasetcard=false" width="800" height="600" frameborder="0"></iframe></div>
+                  </div> </div>
+                  <div class="container">
+                    <div class="row">
+                    <div class="col-sm"> <img id="residential" src="residential1.png"> <p class="txtsec1"> Residential: 50% </p> </div>
+                    <div class="col-sm"> <img id="industry" src="industrial.png"> <p class="txtsec1"> Industrial: 21% </p> </div>
+                    <div class="col-sm"> <img id="commercial" src="commercial1.png"> <p class="txtsec1"> Commercial: 15% </p> </div>
+                    <div class="col-sm"> <img id="government" src="government1.png"> <p class="txtsec1"> Government: 12% </p>  </div>
+  </div></div> </section>
+
   <!-- saving electricity  -->
 <br> <br> <br> <br> <br> <br>
-  <section>
-    <div class="container-fluid">
-      <div="row"> <div class="col-sm"> <h3 class="txtsec1"> Tips to save electricity during the day! </h3> </div> </div> </div>
-  <div class="container-fluid">
-    <div class="row">
-    <div class="col-sm"> <iframe width="560" height="315" src="https://www.youtube.com/embed/E8wAPeqcRUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-    <!-- <div class="col-sm"><img id="ac" src="ac.png"> <img id="car" src="car.png"> <img id="light" src="light.png"> <img id="ref" src="ref.png"> <img id="dryer" src="dryer.png"> </div> -->
-</div> </div> <section>
+<section id="production">
+
+      <div class="container" id="prod">
+        <br> <br>
+        <div class="row"> <div class="col-sm"> <h3 class="txtsec1"> Tips to save electricity during the day! </h3> </div> </div>
+          <div class="row" id="pict">
+            <div class="col-sm">
+              <p> Car </p> <i class="fas fa-car fa-3x"></i> <br> <br>
+                                  <ul>
+                                      <li>Heating the car </li>
+                                      <li>Regular Maintenance</li>
+                                      <li>Check the Tires Pressure</li>
+                                                              </ul>
+          </div>
+          <div class="col-sm">
+            <p> Air Conditioners </p><i class="fas fa-snowflake fa-3x"></i> <p> 10% </p>
+          </div>
+          <div class="col-sm">
+              <p> Lightening </p> <i class="fas fa-lightbulb fa-3x"></i> <p> 15% </p>
+          </div>
+          <div class="col-sm">
+              <p> Insulation </p> <i class="fas fa-home fa-3x"></i> <p> 49% </p>
+          </div>  </div>    </div>  </section>
+
+
   <!-- vision 2030  -->
 <br> <br> <br> <br> <br> <br>
 <section>

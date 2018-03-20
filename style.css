@@ -1,14 +1,12 @@
+@import "bootstrap.min.css";
+
 body {
-  background-color: black;
+  background-color: white;
 }
 #first {
   width: 100%;
-  height: 70%;
+  height: 100vh;
   /* height: 800px; */
-}
-.main {
-  /* max-width: 1500px; */
-  width: 90%;
 }
 .background {
   position: relative;
@@ -16,17 +14,14 @@ body {
 .text1 {
   position: absolute;
   bottom: 80%;
-  color: white;
   text-align: center;
   right: 20%;
 }
 h2 {
-  color: white;
   text-align: center;
 }
 .txtsec1 {
   /* text-align: center; */
-  color: white;
 }
 .vision {
   width: 60%;
@@ -35,9 +30,20 @@ h2 {
 .row {
   margin: 2%;
   text-align:center;
-  /* width: 100%;
-  height: 100%; */
+
 }
+.rowgray {
+  backgroud-color: gray;
+}
+#pict {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+#production {
+  background-color: #e2e2e4;
+  /* padding: 25vh; */
+}
+
 #according {
   width:100%;
 }
