@@ -28,6 +28,7 @@ h2 {
     text-align: center;
     font-family: Georgia;
     color: grey;
+    font-size: 30px;
 }
 
 .vision {
@@ -78,9 +79,10 @@ h2 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
-  background-color: #008CBA;
-  padding-left: 45px;
-  padding-right: 47px;
+  background-color: #80b1d3;
+  padding-left: 52px;
+  padding-right: 52px;
+  height: 210%;
 }
 
 .container:hover #car {
@@ -191,9 +193,10 @@ h3 {
 p {
   font-size: 23px;
   font-family:  VERDANA;
+
 }
 li {
-  font-size: 17px;
+  font-size: 13px;
   font-family:  VERDANA;
 }
 a {
@@ -204,4 +207,8 @@ a {
 .orange {
   font-size: 26px;
   color: #fdb462;
+}
+.list {
+  font-size: 15px;
+  text-align: left;
 }
